@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL_QA</key>
+	<string>http://10.81.12.46:7777/appWSSIANMovilesPAR/services/WSRutasMovil/</string>
+	<key>URL</key>
+	<string>https://www.servicios.tiendasneto.com/WSSIANMoviles/services/WSRutasMovil/</string>
+	<key>URL_DESA</key>
+	<string>http://10.81.12.45:7777/WSSIAN/services/WSRutasMovil/</string>
+</dict>
+</plist>

@@ -1,0 +1,57 @@
+
+App Thinning Size Report for All Variants of ReporteVentasNetoiOS
+
+Variant: ReporteVentasNetoiOS-0BC275DF-579E-46B2-A9F8-862BC7B1DA3B.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 12]
+App + On Demand Resources size: 2.9 MB compressed, 8.2 MB uncompressed
+App size: 2.9 MB compressed, 8.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ReporteVentasNetoiOS-0F65446D-2653-48B2-8C83-E9746C97C19A.ipa
+Supported variant descriptors: [device: iPhone6,2, os-version: 12], [device: iPhone6,1, os-version: 12], [device: iPhone8,1, os-version: 12], [device: iPhone7,2, os-version: 12], [device: iPhone8,4, os-version: 12], and [device: iPod7,1, os-version: 12]
+App + On Demand Resources size: 2.9 MB compressed, 8.2 MB uncompressed
+App size: 2.9 MB compressed, 8.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ReporteVentasNetoiOS-60487B81-4608-4B26-AD93-E67CE9CBC1A9.ipa
+Supported variant descriptors: [device: iPad6,7, os-version: 12], [device: iPad4,3, os-version: 12], [device: iPad4,9, os-version: 12], [device: iPad6,12, os-version: 12], [device: iPad4,6, os-version: 12], [device: iPad4,2, os-version: 12], [device: iPad4,1, os-version: 12], [device: iPad6,8, os-version: 12], [device: iPad6,11, os-version: 12], [device: iPad4,8, os-version: 12], [device: iPad4,4, os-version: 12], [device: iPad5,1, os-version: 12], [device: iPad7,5, os-version: 12], [device: iPad5,3, os-version: 12], [device: iPad5,2, os-version: 12], [device: iPad4,7, os-version: 12], [device: iPad7,6, os-version: 12], [device: iPad5,4, os-version: 12], and [device: iPad4,5, os-version: 12]
+App + On Demand Resources size: 2.9 MB compressed, 8.2 MB uncompressed
+App size: 2.9 MB compressed, 8.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ReporteVentasNetoiOS-6E8F7FE7-583B-4A8A-B154-994FFD8467C2.ipa
+Supported variant descriptors: [device: iPad7,1, os-version: 12], [device: iPad7,4, os-version: 12], [device: iPad8,5, os-version: 12], [device: iPad8,4, os-version: 12], [device: iPad7,3, os-version: 12], [device: iPad8,3, os-version: 12], [device: iPad8,8, os-version: 12], [device: iPad8,6, os-version: 12], [device: iPad6,3, os-version: 12], [device: iPad8,7, os-version: 12], [device: iPad7,2, os-version: 12], [device: iPad6,4, os-version: 12], [device: iPad8,1, os-version: 12], and [device: iPad8,2, os-version: 12]
+App + On Demand Resources size: 2.9 MB compressed, 8.2 MB uncompressed
+App size: 2.9 MB compressed, 8.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ReporteVentasNetoiOS-BA82D364-29A3-497D-9088-282DFED9A031.ipa
+Supported variant descriptors: [device: iPhone10,4, os-version: 12], [device: iPhone9,3, os-version: 12], [device: iPhone10,1, os-version: 12], and [device: iPhone9,1, os-version: 12]
+App + On Demand Resources size: 2.9 MB compressed, 8.2 MB uncompressed
+App size: 2.9 MB compressed, 8.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ReporteVentasNetoiOS-F681C081-E879-4E2E-9485-15A9A76265D4.ipa
+Supported variant descriptors: [device: iPhone10,6, os-version: 12], [device: iPhone9,4, os-version: 12], [device: iPhone10,5, os-version: 12], [device: iPhone11,4, os-version: 12], [device: iPhone10,3, os-version: 12], [device: iPhone9,2, os-version: 12], [device: iPhone10,2, os-version: 12], [device: iPhone11,6, os-version: 12], and [device: iPhone11,2, os-version: 12]
+App + On Demand Resources size: 2.9 MB compressed, 8.2 MB uncompressed
+App size: 2.9 MB compressed, 8.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ReporteVentasNetoiOS-FB9F316E-6AFF-47AC-96E5-82AD53399BE6.ipa
+Supported variant descriptors: [device: iPhone7,1, os-version: 11] and [device: iPhone8,2, os-version: 12]
+App + On Demand Resources size: 2.9 MB compressed, 8.2 MB uncompressed
+App size: 2.9 MB compressed, 8.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ReporteVentasNetoiOS.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 3 MB compressed, 8.2 MB uncompressed
+App size: 3 MB compressed, 8.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EC367928B92B8FB3F8D529 /* Pods_ReporteVentasNetoiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDB679380845CEFE3DF8C8E /* Pods_ReporteVentasNetoiOS.framework */; };
+		A9C2C410241B62BD008ABAAC /* img_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C2C40F241B62BD008ABAAC /* img_logo.png */; };
+		A9C2C412241B63CC008ABAAC /* bts_DIA OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C2C411241B63CC008ABAAC /* bts_DIA OFF.png */; };
+		E7271B47207297FF00DF2CBE /* mas_info_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B46207297FF00DF2CBE /* mas_info_2.png */; };
+		E7271B4B20729C8100DF2CBE /* reload_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B4A20729C8100DF2CBE /* reload_2.png */; };
+		E7271B4D20729D2B00DF2CBE /* reload_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B4C20729D2B00DF2CBE /* reload_3.png */; };
+		E7271B4F20729D6100DF2CBE /* tiendita_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B4E20729D6100DF2CBE /* tiendita_2.png */; };
+		E7271B5120729D9D00DF2CBE /* calendario_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B5020729D9D00DF2CBE /* calendario_2.png */; };
+		E7271B5320729DEE00DF2CBE /* salir_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B5220729DEE00DF2CBE /* salir_2.png */; };
+		E7271B5520729E0E00DF2CBE /* back_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B5420729E0E00DF2CBE /* back_2.png */; };
+		E7271B572072A07800DF2CBE /* tiendita_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B562072A07800DF2CBE /* tiendita_3.png */; };
+		E7271B592072A0E300DF2CBE /* tiendita_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B582072A0E300DF2CBE /* tiendita_4.png */; };
+		E7271B5B2072A12F00DF2CBE /* calendario_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B5A2072A12F00DF2CBE /* calendario_3.png */; };
+		E7271B5D2072A21100DF2CBE /* salir_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E7271B5C2072A21100DF2CBE /* salir_3.png */; };
+		E72CA87620894A7A00E8DCA5 /* BTN_BACKGROUND.png in Resources */ = {isa = PBXBuildFile; fileRef = E72CA87520894A7900E8DCA5 /* BTN_BACKGROUND.png */; };
+		E74EACC6219B24C900154D52 /* bts_SEMANA OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = E74EACC5219B24C900154D52 /* bts_SEMANA OFF.png */; };
+		E76C6CE7203F37770013710D /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C6CE6203F37760013710D /* reload.png */; };
+		E76C6CEA203F61F10013710D /* VentaBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C6CE9203F61F10013710D /* VentaBean.swift */; };
+		E76C6CEC203FD6A00013710D /* CalendarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C6CEB203FD6A00013710D /* CalendarioViewController.swift */; };
+		E76C6CEE203FD85F0013710D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C6CED203FD85E0013710D /* back.png */; };
+		E76C6CF0204059BC0013710D /* UsuarioBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C6CEF204059BC0013710D /* UsuarioBean.swift */; };
+		E76C6CF3204061720013710D /* HeadersObjective.m in Sources */ = {isa = PBXBuildFile; fileRef = E76C6CF2204061720013710D /* HeadersObjective.m */; };
+		E76C6CF6204070510013710D /* calendario.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C6CF5204070510013710D /* calendario.png */; };
+		E76C6CF820408B550013710D /* tiendas_neto.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C6CF720408B550013710D /* tiendas_neto.png */; };
+		E76C6CFA20408DF10013710D /* header_sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C6CF920408DF00013710D /* header_sombra.png */; };
+		E76C6CFE2040CDFD0013710D /* TiendasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C6CFD2040CDFD0013710D /* TiendasViewController.swift */; };
+		E76C6D002040CEFA0013710D /* TiendaDisponibleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C6CFF2040CEFA0013710D /* TiendaDisponibleViewCell.swift */; };
+		E76C6D022040D0870013710D /* tiendita.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C6D012040D0860013710D /* tiendita.png */; };
+		E76C6D042040FAC40013710D /* TiendaBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C6D032040FAC40013710D /* TiendaBean.swift */; };
+		E77CE97F206C90AC005832AE /* salir.png in Resources */ = {isa = PBXBuildFile; fileRef = E77CE97E206C90AC005832AE /* salir.png */; };
+		E77FFF30208A289F000CF626 /* LOGOblanco-03.png in Resources */ = {isa = PBXBuildFile; fileRef = E77FFF2F208A289E000CF626 /* LOGOblanco-03.png */; };
+		E77FFF35208A4040000CF626 /* bts_DIA ON.png in Resources */ = {isa = PBXBuildFile; fileRef = E77FFF34208A403F000CF626 /* bts_DIA ON.png */; };
+		E77FFF37208A405F000CF626 /* bts_MES OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = E77FFF36208A405F000CF626 /* bts_MES OFF.png */; };
+		E77FFF39208A4093000CF626 /* bts_MES ON.png in Resources */ = {isa = PBXBuildFile; fileRef = E77FFF38208A4093000CF626 /* bts_MES ON.png */; };
+		E77FFF3F208A4D4D000CF626 /* bts_SEMANA ON.png in Resources */ = {isa = PBXBuildFile; fileRef = E77FFF3E208A4D4C000CF626 /* bts_SEMANA ON.png */; };
+		E79CEF612265049D005721AC /* carritoLupaAzul2.png in Resources */ = {isa = PBXBuildFile; fileRef = E79CEF602265049C005721AC /* carritoLupaAzul2.png */; };
+		E79CEF6322650649005721AC /* carritopuerta_azul_lupa.png in Resources */ = {isa = PBXBuildFile; fileRef = E79CEF6222650648005721AC /* carritopuerta_azul_lupa.png */; };
+		E79CEF65226507FF005721AC /* lupaA.png in Resources */ = {isa = PBXBuildFile; fileRef = E79CEF64226507FF005721AC /* lupaA.png */; };
+		E79CEF672265084A005721AC /* lupaAper.png in Resources */ = {isa = PBXBuildFile; fileRef = E79CEF6622650849005721AC /* lupaAper.png */; };
+		E79CEF6B2265473A005721AC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CEF6A2265473A005721AC /* InfoViewController.swift */; };
+		E7B596AE207E9D4A000B4F6C /* Logo FM Neto Blanco nuevo-01.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B596AD207E9D49000B4F6C /* Logo FM Neto Blanco nuevo-01.png */; };
+		E7B6E94B22659203002FAA04 /* info2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B6E94A22659203002FAA04 /* info2.png */; };
+		E7D99BE620449D4E00E40675 /* propiedades.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7D99BE520449D4E00E40675 /* propiedades.plist */; };
+		E7DC07462033B40900F4D404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC07452033B40900F4D404 /* AppDelegate.swift */; };
+		E7DC07482033B40900F4D404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC07472033B40900F4D404 /* ViewController.swift */; };
+		E7DC074B2033B40900F4D404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DC07492033B40900F4D404 /* Main.storyboard */; };
+		E7DC074D2033B40900F4D404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DC074C2033B40900F4D404 /* Assets.xcassets */; };
+		E7DC07502033B40900F4D404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DC074E2033B40900F4D404 /* LaunchScreen.storyboard */; };
+		E7DC07582033B87C00F4D404 /* TiendaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC07572033B87C00F4D404 /* TiendaTableViewCell.swift */; };
+		E7E2FBC1225F9A9400A6A66E /* carrito.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBC0225F9A9400A6A66E /* carrito.png */; };
+		E7E2FBC3225F9E6F00A6A66E /* carritonaranja.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBC2225F9E6F00A6A66E /* carritonaranja.png */; };
+		E7E2FBC5225F9E8700A6A66E /* carritoturquesa.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBC4225F9E8700A6A66E /* carritoturquesa.png */; };
+		E7E2FBC7225FBBE000A6A66E /* carritopuerta_azul.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBC6225FBBDF00A6A66E /* carritopuerta_azul.png */; };
+		E7E2FBC9225FBBF800A6A66E /* carritopuerta_naranja.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBC8225FBBF800A6A66E /* carritopuerta_naranja.png */; };
+		E7E2FBCB225FDB6700A6A66E /* calendario_3_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBCA225FDB6600A6A66E /* calendario_3_v2.png */; };
+		E7E2FBCD225FDB7D00A6A66E /* tiendita_4_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBCC225FDB7D00A6A66E /* tiendita_4_v2.png */; };
+		E7E2FBCF225FF75900A6A66E /* tiendaA.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBCE225FF75800A6A66E /* tiendaA.png */; };
+		E7E35FD12256B47F000E364B /* tiendasNuevas.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E35FD02256B47F000E364B /* tiendasNuevas.png */; };
+		E7ECFFA4203C8F3800780F6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ECFFA3203C8F3800780F6B /* LoginViewController.swift */; };
+		E7ECFFAB203CE58E00780F6B /* boton_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = E7ECFFA9203CE58E00780F6B /* boton_disable.png */; };
+		E7ECFFAC203CE58E00780F6B /* boton_enable.png in Resources */ = {isa = PBXBuildFile; fileRef = E7ECFFAA203CE58E00780F6B /* boton_enable.png */; };
+		E7ECFFAE203CEACB00780F6B /* mas_info.png in Resources */ = {isa = PBXBuildFile; fileRef = E7ECFFAD203CEACB00780F6B /* mas_info.png */; };
+		E7F1C14A22A1AF21004B20C2 /* pptoturquesa.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F1C14922A1AF20004B20C2 /* pptoturquesa.png */; };
+		E7F1C14C22A1AF34004B20C2 /* pptonaranja.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F1C14B22A1AF34004B20C2 /* pptonaranja.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CDB679380845CEFE3DF8C8E /* Pods_ReporteVentasNetoiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReporteVentasNetoiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3016DAD6B6C35DF25A8D81E7 /* Pods-ReporteVentasNetoiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReporteVentasNetoiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReporteVentasNetoiOS/Pods-ReporteVentasNetoiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C2C40F241B62BD008ABAAC /* img_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_logo.png; sourceTree = "<group>"; };
+		A9C2C411241B63CC008ABAAC /* bts_DIA OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bts_DIA OFF.png"; sourceTree = "<group>"; };
+		E7271B46207297FF00DF2CBE /* mas_info_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mas_info_2.png; sourceTree = "<group>"; };
+		E7271B4A20729C8100DF2CBE /* reload_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload_2.png; sourceTree = "<group>"; };
+		E7271B4C20729D2B00DF2CBE /* reload_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload_3.png; sourceTree = "<group>"; };
+		E7271B4E20729D6100DF2CBE /* tiendita_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendita_2.png; sourceTree = "<group>"; };
+		E7271B5020729D9D00DF2CBE /* calendario_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendario_2.png; sourceTree = "<group>"; };
+		E7271B5220729DEE00DF2CBE /* salir_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salir_2.png; sourceTree = "<group>"; };
+		E7271B5420729E0E00DF2CBE /* back_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_2.png; sourceTree = "<group>"; };
+		E7271B562072A07800DF2CBE /* tiendita_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendita_3.png; sourceTree = "<group>"; };
+		E7271B582072A0E300DF2CBE /* tiendita_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendita_4.png; sourceTree = "<group>"; };
+		E7271B5A2072A12F00DF2CBE /* calendario_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendario_3.png; sourceTree = "<group>"; };
+		E7271B5C2072A21100DF2CBE /* salir_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salir_3.png; sourceTree = "<group>"; };
+		E72CA87520894A7900E8DCA5 /* BTN_BACKGROUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BTN_BACKGROUND.png; sourceTree = "<group>"; };
+		E74EACC5219B24C900154D52 /* bts_SEMANA OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bts_SEMANA OFF.png"; sourceTree = "<group>"; };
+		E76C6CE6203F37760013710D /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		E76C6CE9203F61F10013710D /* VentaBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentaBean.swift; sourceTree = "<group>"; };
+		E76C6CEB203FD6A00013710D /* CalendarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioViewController.swift; sourceTree = "<group>"; };
+		E76C6CED203FD85E0013710D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E76C6CEF204059BC0013710D /* UsuarioBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioBean.swift; sourceTree = "<group>"; };
+		E76C6CF2204061720013710D /* HeadersObjective.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadersObjective.m; sourceTree = "<group>"; };
+		E76C6CF4204061DC0013710D /* HeadersObjective.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadersObjective.h; sourceTree = "<group>"; };
+		E76C6CF5204070510013710D /* calendario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendario.png; sourceTree = "<group>"; };
+		E76C6CF720408B550013710D /* tiendas_neto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendas_neto.png; sourceTree = "<group>"; };
+		E76C6CF920408DF00013710D /* header_sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_sombra.png; sourceTree = "<group>"; };
+		E76C6CFD2040CDFD0013710D /* TiendasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendasViewController.swift; sourceTree = "<group>"; };
+		E76C6CFF2040CEFA0013710D /* TiendaDisponibleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaDisponibleViewCell.swift; sourceTree = "<group>"; };
+		E76C6D012040D0860013710D /* tiendita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendita.png; sourceTree = "<group>"; };
+		E76C6D032040FAC40013710D /* TiendaBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaBean.swift; sourceTree = "<group>"; };
+		E77CE97E206C90AC005832AE /* salir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salir.png; sourceTree = "<group>"; };
+		E77FFF2F208A289E000CF626 /* LOGOblanco-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGOblanco-03.png"; sourceTree = "<group>"; };
+		E77FFF34208A403F000CF626 /* bts_DIA ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bts_DIA ON.png"; sourceTree = "<group>"; };
+		E77FFF36208A405F000CF626 /* bts_MES OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bts_MES OFF.png"; sourceTree = "<group>"; };
+		E77FFF38208A4093000CF626 /* bts_MES ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bts_MES ON.png"; sourceTree = "<group>"; };
+		E77FFF3E208A4D4C000CF626 /* bts_SEMANA ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bts_SEMANA ON.png"; sourceTree = "<group>"; };
+		E79CEF602265049C005721AC /* carritoLupaAzul2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carritoLupaAzul2.png; sourceTree = "<group>"; };
+		E79CEF6222650648005721AC /* carritopuerta_azul_lupa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carritopuerta_azul_lupa.png; sourceTree = "<group>"; };
+		E79CEF64226507FF005721AC /* lupaA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lupaA.png; sourceTree = "<group>"; };
+		E79CEF6622650849005721AC /* lupaAper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lupaAper.png; sourceTree = "<group>"; };
+		E79CEF6A2265473A005721AC /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E7B596AD207E9D49000B4F6C /* Logo FM Neto Blanco nuevo-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo FM Neto Blanco nuevo-01.png"; sourceTree = "<group>"; };
+		E7B6E94A22659203002FAA04 /* info2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info2.png; sourceTree = "<group>"; };
+		E7D99BE520449D4E00E40675 /* propiedades.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = propiedades.plist; sourceTree = "<group>"; };
+		E7DC07422033B40900F4D404 /* ReporteVentasNetoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReporteVentasNetoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DC07452033B40900F4D404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7DC07472033B40900F4D404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7DC074A2033B40900F4D404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DC074C2033B40900F4D404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7DC074F2033B40900F4D404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7DC07512033B40900F4D404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7DC07572033B87C00F4D404 /* TiendaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaTableViewCell.swift; sourceTree = "<group>"; };
+		E7E2FBC0225F9A9400A6A66E /* carrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carrito.png; sourceTree = "<group>"; };
+		E7E2FBC2225F9E6F00A6A66E /* carritonaranja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carritonaranja.png; sourceTree = "<group>"; };
+		E7E2FBC4225F9E8700A6A66E /* carritoturquesa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carritoturquesa.png; sourceTree = "<group>"; };
+		E7E2FBC6225FBBDF00A6A66E /* carritopuerta_azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carritopuerta_azul.png; sourceTree = "<group>"; };
+		E7E2FBC8225FBBF800A6A66E /* carritopuerta_naranja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carritopuerta_naranja.png; sourceTree = "<group>"; };
+		E7E2FBCA225FDB6600A6A66E /* calendario_3_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendario_3_v2.png; sourceTree = "<group>"; };
+		E7E2FBCC225FDB7D00A6A66E /* tiendita_4_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendita_4_v2.png; sourceTree = "<group>"; };
+		E7E2FBCE225FF75800A6A66E /* tiendaA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendaA.png; sourceTree = "<group>"; };
+		E7E35FD02256B47F000E364B /* tiendasNuevas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendasNuevas.png; sourceTree = "<group>"; };
+		E7ECFFA2203C890B00780F6B /* img_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_logo.png; sourceTree = "<group>"; };
+		E7ECFFA3203C8F3800780F6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E7ECFFA9203CE58E00780F6B /* boton_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_disable.png; sourceTree = "<group>"; };
+		E7ECFFAA203CE58E00780F6B /* boton_enable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_enable.png; sourceTree = "<group>"; };
+		E7ECFFAD203CEACB00780F6B /* mas_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mas_info.png; sourceTree = "<group>"; };
+		E7F1C14922A1AF20004B20C2 /* pptoturquesa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pptoturquesa.png; sourceTree = "<group>"; };
+		E7F1C14B22A1AF34004B20C2 /* pptonaranja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pptonaranja.png; sourceTree = "<group>"; };
+		FC4B780721C9FD76ACEAC7FD /* Pods-ReporteVentasNetoiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReporteVentasNetoiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReporteVentasNetoiOS/Pods-ReporteVentasNetoiOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7DC073F2033B40900F4D404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EC367928B92B8FB3F8D529 /* Pods_ReporteVentasNetoiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409C26602C934C0A1677F449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3016DAD6B6C35DF25A8D81E7 /* Pods-ReporteVentasNetoiOS.debug.xcconfig */,
+				FC4B780721C9FD76ACEAC7FD /* Pods-ReporteVentasNetoiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79BF697BE00A7CA2916107F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CDB679380845CEFE3DF8C8E /* Pods_ReporteVentasNetoiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E76C6CE8203F61C70013710D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E76C6D032040FAC40013710D /* TiendaBean.swift */,
+				E76C6CE9203F61F10013710D /* VentaBean.swift */,
+				E76C6CEF204059BC0013710D /* UsuarioBean.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E76C6CF1204061250013710D /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E76C6CF2204061720013710D /* HeadersObjective.m */,
+				E76C6CF4204061DC0013710D /* HeadersObjective.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		E7DC07392033B40900F4D404 = {
+			isa = PBXGroup;
+			children = (
+				E76C6CF1204061250013710D /* Headers */,
+				E76C6CE8203F61C70013710D /* Model */,
+				E7ECFFA1203C890500780F6B /* imagenes */,
+				E7DC07442033B40900F4D404 /* ReporteVentasNetoiOS */,
+				E7DC07432033B40900F4D404 /* Products */,
+				409C26602C934C0A1677F449 /* Pods */,
+				79BF697BE00A7CA2916107F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7DC07432033B40900F4D404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7DC07422033B40900F4D404 /* ReporteVentasNetoiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7DC07442033B40900F4D404 /* ReporteVentasNetoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2C40F241B62BD008ABAAC /* img_logo.png */,
+				E7DC07452033B40900F4D404 /* AppDelegate.swift */,
+				E7DC07472033B40900F4D404 /* ViewController.swift */,
+				E7DC07492033B40900F4D404 /* Main.storyboard */,
+				E7DC07572033B87C00F4D404 /* TiendaTableViewCell.swift */,
+				E7DC074C2033B40900F4D404 /* Assets.xcassets */,
+				E7DC074E2033B40900F4D404 /* LaunchScreen.storyboard */,
+				E7DC07512033B40900F4D404 /* Info.plist */,
+				E7ECFFA3203C8F3800780F6B /* LoginViewController.swift */,
+				E76C6CEB203FD6A00013710D /* CalendarioViewController.swift */,
+				E76C6CFD2040CDFD0013710D /* TiendasViewController.swift */,
+				E76C6CFF2040CEFA0013710D /* TiendaDisponibleViewCell.swift */,
+				E7D99BE520449D4E00E40675 /* propiedades.plist */,
+				E79CEF6A2265473A005721AC /* InfoViewController.swift */,
+			);
+			path = ReporteVentasNetoiOS;
+			sourceTree = "<group>";
+		};
+		E7ECFFA1203C890500780F6B /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2C411241B63CC008ABAAC /* bts_DIA OFF.png */,
+				E7F1C14B22A1AF34004B20C2 /* pptonaranja.png */,
+				E7F1C14922A1AF20004B20C2 /* pptoturquesa.png */,
+				E7B6E94A22659203002FAA04 /* info2.png */,
+				E79CEF6622650849005721AC /* lupaAper.png */,
+				E79CEF64226507FF005721AC /* lupaA.png */,
+				E79CEF6222650648005721AC /* carritopuerta_azul_lupa.png */,
+				E79CEF602265049C005721AC /* carritoLupaAzul2.png */,
+				E7E2FBCE225FF75800A6A66E /* tiendaA.png */,
+				E7E2FBCC225FDB7D00A6A66E /* tiendita_4_v2.png */,
+				E7E2FBCA225FDB6600A6A66E /* calendario_3_v2.png */,
+				E7E2FBC8225FBBF800A6A66E /* carritopuerta_naranja.png */,
+				E7E2FBC6225FBBDF00A6A66E /* carritopuerta_azul.png */,
+				E7E2FBC4225F9E8700A6A66E /* carritoturquesa.png */,
+				E7E2FBC2225F9E6F00A6A66E /* carritonaranja.png */,
+				E7E2FBC0225F9A9400A6A66E /* carrito.png */,
+				E7E35FD02256B47F000E364B /* tiendasNuevas.png */,
+				E74EACC5219B24C900154D52 /* bts_SEMANA OFF.png */,
+				E77FFF3E208A4D4C000CF626 /* bts_SEMANA ON.png */,
+				E77FFF38208A4093000CF626 /* bts_MES ON.png */,
+				E77FFF34208A403F000CF626 /* bts_DIA ON.png */,
+				E77FFF36208A405F000CF626 /* bts_MES OFF.png */,
+				E77FFF2F208A289E000CF626 /* LOGOblanco-03.png */,
+				E72CA87520894A7900E8DCA5 /* BTN_BACKGROUND.png */,
+				E7B596AD207E9D49000B4F6C /* Logo FM Neto Blanco nuevo-01.png */,
+				E7271B5C2072A21100DF2CBE /* salir_3.png */,
+				E7271B5A2072A12F00DF2CBE /* calendario_3.png */,
+				E7271B582072A0E300DF2CBE /* tiendita_4.png */,
+				E7271B562072A07800DF2CBE /* tiendita_3.png */,
+				E7271B5420729E0E00DF2CBE /* back_2.png */,
+				E7271B5220729DEE00DF2CBE /* salir_2.png */,
+				E7271B5020729D9D00DF2CBE /* calendario_2.png */,
+				E7271B4E20729D6100DF2CBE /* tiendita_2.png */,
+				E7271B4C20729D2B00DF2CBE /* reload_3.png */,
+				E7271B4A20729C8100DF2CBE /* reload_2.png */,
+				E7271B46207297FF00DF2CBE /* mas_info_2.png */,
+				E77CE97E206C90AC005832AE /* salir.png */,
+				E76C6D012040D0860013710D /* tiendita.png */,
+				E76C6CF920408DF00013710D /* header_sombra.png */,
+				E76C6CF720408B550013710D /* tiendas_neto.png */,
+				E76C6CF5204070510013710D /* calendario.png */,
+				E76C6CED203FD85E0013710D /* back.png */,
+				E76C6CE6203F37760013710D /* reload.png */,
+				E7ECFFAD203CEACB00780F6B /* mas_info.png */,
+				E7ECFFA2203C890B00780F6B /* img_logo.png */,
+				E7ECFFA9203CE58E00780F6B /* boton_disable.png */,
+				E7ECFFAA203CE58E00780F6B /* boton_enable.png */,
+			);
+			path = imagenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7DC07412033B40900F4D404 /* ReporteVentasNetoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7DC07542033B40900F4D404 /* Build configuration list for PBXNativeTarget "ReporteVentasNetoiOS" */;
+			buildPhases = (
+				278790DB993F2B7DF4411DEF /* [CP] Check Pods Manifest.lock */,
+				E7DC073E2033B40900F4D404 /* Sources */,
+				E7DC073F2033B40900F4D404 /* Frameworks */,
+				E7DC07402033B40900F4D404 /* Resources */,
+				BE863DE6AB2441FD61C3F4AD /* [CP] Embed Pods Frameworks */,
+				E6713380C84CF67F1220ADD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReporteVentasNetoiOS;
+			productName = ReporteVentasNetoiOS;
+			productReference = E7DC07422033B40900F4D404 /* ReporteVentasNetoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7DC073A2033B40900F4D404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Antonio Montoya Aguirre";
+				TargetAttributes = {
+					E7DC07412033B40900F4D404 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E7DC073D2033B40900F4D404 /* Build configuration list for PBXProject "ReporteVentasNetoiOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7DC07392033B40900F4D404;
+			productRefGroup = E7DC07432033B40900F4D404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7DC07412033B40900F4D404 /* ReporteVentasNetoiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7DC07402033B40900F4D404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74EACC6219B24C900154D52 /* bts_SEMANA OFF.png in Resources */,
+				E76C6CFA20408DF10013710D /* header_sombra.png in Resources */,
+				E77CE97F206C90AC005832AE /* salir.png in Resources */,
+				E76C6CF820408B550013710D /* tiendas_neto.png in Resources */,
+				E7E2FBCB225FDB6700A6A66E /* calendario_3_v2.png in Resources */,
+				E77FFF30208A289F000CF626 /* LOGOblanco-03.png in Resources */,
+				E7ECFFAE203CEACB00780F6B /* mas_info.png in Resources */,
+				E77FFF3F208A4D4D000CF626 /* bts_SEMANA ON.png in Resources */,
+				E7B596AE207E9D4A000B4F6C /* Logo FM Neto Blanco nuevo-01.png in Resources */,
+				E7271B572072A07800DF2CBE /* tiendita_3.png in Resources */,
+				E7271B5B2072A12F00DF2CBE /* calendario_3.png in Resources */,
+				E77FFF35208A4040000CF626 /* bts_DIA ON.png in Resources */,
+				E77FFF37208A405F000CF626 /* bts_MES OFF.png in Resources */,
+				E7271B4B20729C8100DF2CBE /* reload_2.png in Resources */,
+				E7271B5120729D9D00DF2CBE /* calendario_2.png in Resources */,
+				E76C6D022040D0870013710D /* tiendita.png in Resources */,
+				E7E2FBCD225FDB7D00A6A66E /* tiendita_4_v2.png in Resources */,
+				E79CEF65226507FF005721AC /* lupaA.png in Resources */,
+				E7D99BE620449D4E00E40675 /* propiedades.plist in Resources */,
+				E7E35FD12256B47F000E364B /* tiendasNuevas.png in Resources */,
+				E76C6CEE203FD85F0013710D /* back.png in Resources */,
+				E7DC07502033B40900F4D404 /* LaunchScreen.storyboard in Resources */,
+				E7E2FBC9225FBBF800A6A66E /* carritopuerta_naranja.png in Resources */,
+				E79CEF672265084A005721AC /* lupaAper.png in Resources */,
+				E7E2FBCF225FF75900A6A66E /* tiendaA.png in Resources */,
+				E7271B5320729DEE00DF2CBE /* salir_2.png in Resources */,
+				A9C2C410241B62BD008ABAAC /* img_logo.png in Resources */,
+				E7271B4D20729D2B00DF2CBE /* reload_3.png in Resources */,
+				E7271B5D2072A21100DF2CBE /* salir_3.png in Resources */,
+				E7271B592072A0E300DF2CBE /* tiendita_4.png in Resources */,
+				E77FFF39208A4093000CF626 /* bts_MES ON.png in Resources */,
+				E7E2FBC5225F9E8700A6A66E /* carritoturquesa.png in Resources */,
+				E7ECFFAB203CE58E00780F6B /* boton_disable.png in Resources */,
+				E79CEF612265049D005721AC /* carritoLupaAzul2.png in Resources */,
+				E76C6CE7203F37770013710D /* reload.png in Resources */,
+				E7F1C14C22A1AF34004B20C2 /* pptonaranja.png in Resources */,
+				E7E2FBC3225F9E6F00A6A66E /* carritonaranja.png in Resources */,
+				E79CEF6322650649005721AC /* carritopuerta_azul_lupa.png in Resources */,
+				A9C2C412241B63CC008ABAAC /* bts_DIA OFF.png in Resources */,
+				E7271B5520729E0E00DF2CBE /* back_2.png in Resources */,
+				E7ECFFAC203CE58E00780F6B /* boton_enable.png in Resources */,
+				E7B6E94B22659203002FAA04 /* info2.png in Resources */,
+				E7271B4F20729D6100DF2CBE /* tiendita_2.png in Resources */,
+				E7F1C14A22A1AF21004B20C2 /* pptoturquesa.png in Resources */,
+				E7E2FBC7225FBBE000A6A66E /* carritopuerta_azul.png in Resources */,
+				E7DC074D2033B40900F4D404 /* Assets.xcassets in Resources */,
+				E7E2FBC1225F9A9400A6A66E /* carrito.png in Resources */,
+				E72CA87620894A7A00E8DCA5 /* BTN_BACKGROUND.png in Resources */,
+				E7DC074B2033B40900F4D404 /* Main.storyboard in Resources */,
+				E7271B47207297FF00DF2CBE /* mas_info_2.png in Resources */,
+				E76C6CF6204070510013710D /* calendario.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		278790DB993F2B7DF4411DEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReporteVentasNetoiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE863DE6AB2441FD61C3F4AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReporteVentasNetoiOS/Pods-ReporteVentasNetoiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReporteVentasNetoiOS/Pods-ReporteVentasNetoiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6713380C84CF67F1220ADD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReporteVentasNetoiOS/Pods-ReporteVentasNetoiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7DC073E2033B40900F4D404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ECFFA4203C8F3800780F6B /* LoginViewController.swift in Sources */,
+				E76C6CFE2040CDFD0013710D /* TiendasViewController.swift in Sources */,
+				E7DC07482033B40900F4D404 /* ViewController.swift in Sources */,
+				E76C6CEA203F61F10013710D /* VentaBean.swift in Sources */,
+				E7DC07462033B40900F4D404 /* AppDelegate.swift in Sources */,
+				E76C6CF3204061720013710D /* HeadersObjective.m in Sources */,
+				E76C6CEC203FD6A00013710D /* CalendarioViewController.swift in Sources */,
+				E7DC07582033B87C00F4D404 /* TiendaTableViewCell.swift in Sources */,
+				E76C6D002040CEFA0013710D /* TiendaDisponibleViewCell.swift in Sources */,
+				E76C6CF0204059BC0013710D /* UsuarioBean.swift in Sources */,
+				E79CEF6B2265473A005721AC /* InfoViewController.swift in Sources */,
+				E76C6D042040FAC40013710D /* TiendaBean.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7DC07492033B40900F4D404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DC074A2033B40900F4D404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7DC074E2033B40900F4D404 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DC074F2033B40900F4D404 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7DC07522033B40900F4D404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7DC07532033B40900F4D404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7DC07552033B40900F4D404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3016DAD6B6C35DF25A8D81E7 /* Pods-ReporteVentasNetoiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CPDXSCTX5;
+				INFOPLIST_FILE = ReporteVentasNetoiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neto.reporteventaneto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReporteVentasNetoiOS/WS/ReporteVentasNetoiOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E7DC07562033B40900F4D404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4B780721C9FD76ACEAC7FD /* Pods-ReporteVentasNetoiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CPDXSCTX5;
+				INFOPLIST_FILE = ReporteVentasNetoiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neto.reporteventaneto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReporteVentasNetoiOS/WS/ReporteVentasNetoiOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7DC073D2033B40900F4D404 /* Build configuration list for PBXProject "ReporteVentasNetoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DC07522033B40900F4D404 /* Debug */,
+				E7DC07532033B40900F4D404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7DC07542033B40900F4D404 /* Build configuration list for PBXNativeTarget "ReporteVentasNetoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DC07552033B40900F4D404 /* Debug */,
+				E7DC07562033B40900F4D404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7DC073A2033B40900F4D404 /* Project object */;
+}

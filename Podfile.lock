@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.6.0)
+  - DLRadioButton (1.4.11)
+  - UICircularProgressRing (1.8.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - DLRadioButton (~> 1.4)
+  - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  DLRadioButton: 0d04b8259e7bfd886571a1e9173c73fee7118f50
+  UICircularProgressRing: 653b31f7252b2959e8234f5b9ea5f925da755954
+
+PODFILE CHECKSUM: 03fa9f1964b0613dcbfeda822761b7648c8f9168
+
+COCOAPODS: 1.4.0
